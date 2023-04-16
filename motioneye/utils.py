@@ -41,7 +41,7 @@ import settings
 _SIGNATURE_REGEX = re.compile('[^a-zA-Z0-9/?_.=&{}\[\]":, -]')
 _SPECIAL_COOKIE_NAMES = {'expires', 'domain', 'path', 'secure', 'httponly'}
 
-MASK_WIDTH = 64
+MASK_WIDTH = 32
 
 DEV_NULL = open('/dev/null', 'w')
 
